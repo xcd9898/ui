@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet
     {
         resp.setContentType("text/html");
         resp.setStatus(HttpServletResponse.SC_OK);
-        resp.getWriter().println("<h1>Hello Servlet!!!!, My Name is Marcus Li.</h1>");
+        resp.getWriter().println("<h1>Hello Servlet!!!!</h1>");
         resp.getWriter().println("session=" + req.getSession(true).getId());
     }
 }
