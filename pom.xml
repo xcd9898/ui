@@ -27,6 +27,17 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.0</version>
     </dependency>
+    <!-- springmvc -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>4.3.9.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>ui</finalName>
@@ -39,4 +50,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
